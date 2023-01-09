@@ -1,0 +1,62 @@
+CRITICAL - 2022-09-24 22:45:42 --> Invalid file: \App\Views\Auth\login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\Auth\\login.php')
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 3 VENDORPATH/myth/auth/src/Controllers/AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 4 VENDORPATH/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 22:56:32 --> Invalid file: \App\Views\Auth\login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\Auth\\login.php')
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 3 VENDORPATH/myth/auth/src/Controllers/AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 4 VENDORPATH/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 22:58:40 --> Invalid file: App\Views\Auth\login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Auth\\login.php')
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('App\\Views\\Auth\\login', [], true)
+ 3 VENDORPATH/myth/auth/src/Controllers/AuthController.php(412): view('App\\Views\\Auth\\login', [...])
+ 4 VENDORPATH/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('App\\Views\\Auth\\login', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 22:59:15 --> Invalid file: ../../app/Views/Auth/login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../../app/Views/Auth/login.php')
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('../../app/Views/Auth/login', [], true)
+ 3 VENDORPATH/myth/auth/src/Controllers/AuthController.php(412): view('../../app/Views/Auth/login', [...])
+ 4 VENDORPATH/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('../../app/Views/Auth/login', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 22:59:16 --> Invalid file: ../../app/Views/Auth/login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../../app/Views/Auth/login.php')
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render('../../app/Views/Auth/login', [], true)
+ 3 VENDORPATH/myth/auth/src/Controllers/AuthController.php(412): view('../../app/Views/Auth/login', [...])
+ 4 VENDORPATH/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('../../app/Views/Auth/login', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 23:08:43 --> Class 'App\Models\pengumumanModel' not found
+in APPPATH/Controllers/Pengumuman.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(860): App\Controllers\Pengumuman->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 23:09:25 --> Class 'App\Models\pengumumanModel' not found
+in APPPATH/Controllers/Pengumuman.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(860): App\Controllers\Pengumuman->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

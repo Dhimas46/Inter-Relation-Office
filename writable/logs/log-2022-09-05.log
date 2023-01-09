@@ -1,0 +1,41 @@
+ERROR - 2022-09-05 21:00:40 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'iro', 3306, '', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_cour...', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Models\CourseModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Course.php(16): App\Models\CourseModel->getPaginated(5, NULL)
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Course->index()
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#8 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_cour...', Array, false)
+#3 C:\xampp\htdocs\aplikasi_iro\app\Models\CourseModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Course.php(16): App\Models\CourseModel->getPaginated(5, NULL)
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Course->index()
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-09-05 21:00:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_course`
+FROM `course`', [], false)
+ 3 APPPATH\Models\CourseModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Course.php(16): App\Models\CourseModel->getPaginated(5, null)
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "sweetalert2": "^11.4.29",
+    "yarn": "^1.22.19"
+  }
+}

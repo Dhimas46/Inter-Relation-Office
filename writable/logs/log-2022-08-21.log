@@ -1,0 +1,322 @@
+CRITICAL - 2022-08-21 05:13:03 --> syntax error, unexpected ''deskripsi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\Admin.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Admin')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Admin', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 05:21:23 --> Invalid argument supplied for foreach()
+in APPPATH\Views\course\get.php on line 49.
+ 1 APPPATH\Views\course\get.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\course\\get.php', 49, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\course\\get.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('course/get', [], true)
+ 5 APPPATH\Controllers\User.php(13): view('course/get')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->course()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 05:23:46 --> Invalid argument supplied for foreach()
+in APPPATH\Views\course\get.php on line 49.
+ 1 APPPATH\Views\course\get.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\course\\get.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\course\\get.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('course/get', [], true)
+ 5 APPPATH\Controllers\Course.php(13): view('course/get', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-21 06:04:51 --> mysqli_sql_exception: Table 'iro.user' doesn't exist in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Course.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Course->index()
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-21 06:04:51 --> Table 'iro.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('stdClass')
+ 2 SYSTEMPATH\Database\BaseResult.php(227): CodeIgniter\Database\MySQLi\Result->fetchObject()
+ 3 SYSTEMPATH\Database\BaseResult.php(103): CodeIgniter\Database\BaseResult->getResultObject()
+ 4 APPPATH\Controllers\Course.php(14): CodeIgniter\Database\BaseResult->getResult()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-21 06:05:05 --> mysqli_sql_exception: Table 'iro.user' doesn't exist in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Course.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Course->index()
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-21 06:05:05 --> Table 'iro.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('stdClass')
+ 2 SYSTEMPATH\Database\BaseResult.php(227): CodeIgniter\Database\MySQLi\Result->fetchObject()
+ 3 SYSTEMPATH\Database\BaseResult.php(103): CodeIgniter\Database\BaseResult->getResultObject()
+ 4 APPPATH\Controllers\Course.php(14): CodeIgniter\Database\BaseResult->getResult()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-21 06:05:17 --> mysqli_sql_exception: Table 'iro.user' doesn't exist in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Course.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Course->index()
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-21 06:05:17 --> Table 'iro.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('stdClass')
+ 2 SYSTEMPATH\Database\BaseResult.php(227): CodeIgniter\Database\MySQLi\Result->fetchObject()
+ 3 SYSTEMPATH\Database\BaseResult.php(103): CodeIgniter\Database\BaseResult->getResultObject()
+ 4 APPPATH\Controllers\Course.php(14): CodeIgniter\Database\BaseResult->getResult()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-21 06:05:26 --> mysqli_sql_exception: Table 'iro.user' doesn't exist in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Course.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Course->index()
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-21 06:05:26 --> Table 'iro.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('stdClass')
+ 2 SYSTEMPATH\Database\BaseResult.php(227): CodeIgniter\Database\MySQLi\Result->fetchObject()
+ 3 SYSTEMPATH\Database\BaseResult.php(103): CodeIgniter\Database\BaseResult->getResultObject()
+ 4 APPPATH\Controllers\Course.php(14): CodeIgniter\Database\BaseResult->getResult()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 06:05:39 --> Call to a member function getRow() on null
+in APPPATH\Controllers\Course.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-21 18:51:51 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'iro', 3306, '', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Home.php(10): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Home->home()
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Home.php(10): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Home->home()
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-08-21 18:51:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `content`', [], false)
+ 3 APPPATH\Controllers\Home.php(10): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->home()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-21 18:51:56 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'iro', 3306, '', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Home.php(10): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Home->home()
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Home.php(10): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Home->home()
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-08-21 18:51:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `content`', [], false)
+ 3 APPPATH\Controllers\Home.php(10): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->home()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 18:53:25 --> syntax error, unexpected ',', expecting ']'
+in APPPATH\Controllers\Course.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Course.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Course')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Course')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Course')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Course', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-21 18:56:18 --> mysqli_sql_exception: Unknown column 'users.id' in 'field list' in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Course.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Course->index()
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-21 18:56:18 --> Call to a member function getRow() on bool
+in APPPATH\Controllers\Course.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 18:57:33 --> syntax error, unexpected 'user' (T_STRING), expecting '('
+in APPPATH\Views\course\get.php on line 10.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('course/get', [], true)
+ 3 APPPATH\Controllers\Course.php(13): view('course/get', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 18:58:51 --> Function name must be a string
+in APPPATH\Views\course\get.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('course/get', [], true)
+ 4 APPPATH\Controllers\Course.php(13): view('course/get', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 19:00:41 --> Call to undefined function authuser()
+in APPPATH\Views\course\get.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('course/get', [], true)
+ 4 APPPATH\Controllers\Course.php(13): view('course/get', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 19:04:03 --> Call to undefined function users()
+in APPPATH\Views\course\get.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('course/get', [], true)
+ 4 APPPATH\Controllers\Course.php(13): view('course/get', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 19:04:04 --> Call to undefined function users()
+in APPPATH\Views\course\get.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('course/get', [], true)
+ 4 APPPATH\Controllers\Course.php(13): view('course/get', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 19:04:12 --> Call to undefined function users()
+in APPPATH\Views\course\get.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('course/get', [], true)
+ 4 APPPATH\Controllers\Course.php(13): view('course/get', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 19:06:17 --> syntax error, unexpected ')', expecting ']'
+in APPPATH\Config\Routes.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

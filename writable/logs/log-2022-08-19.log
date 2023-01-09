@@ -1,0 +1,347 @@
+CRITICAL - 2022-08-19 00:16:05 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:23:53 --> syntax error, unexpected '}', expecting ';'
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 47.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(218): CodeIgniter\Autoloader\Autoloader->includeFile('VENDORPATH\\myth\\auth\\src\\Filters\\RoleFilter.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('Myth\\Auth\\Filters\\RoleFilter')
+ 3 SYSTEMPATH\Filters\Filters.php(166): spl_autoload_call('Myth\\Auth\\Filters\\RoleFilter')
+ 4 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:32:50 --> Invalid file: admin/userlist.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/userlist.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/userlist', [], true)
+ 3 APPPATH\Controllers\Admin.php(12): view('admin/userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:32:51 --> Invalid file: admin/userlist.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/userlist.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/userlist', [], true)
+ 3 APPPATH\Controllers\Admin.php(12): view('admin/userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:32:53 --> Invalid file: admin/userlist.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/userlist.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/userlist', [], true)
+ 3 APPPATH\Controllers\Admin.php(12): view('admin/userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:32:57 --> Invalid file: admin/userlist.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/userlist.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/userlist', [], true)
+ 3 APPPATH\Controllers\Admin.php(12): view('admin/userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:33:37 --> Invalid file: admin/userlist.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/userlist.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/userlist', [], true)
+ 3 APPPATH\Controllers\Admin.php(12): view('admin/userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:34:03 --> Invalid file: admin/userlist.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/userlist.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/userlist', [], true)
+ 3 APPPATH\Controllers\Admin.php(12): view('admin/userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:34:06 --> Invalid file: admin/userlist.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/userlist.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/userlist', [], true)
+ 3 APPPATH\Controllers\Admin.php(12): view('admin/userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:34:27 --> Invalid file: admin/userlist.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/userlist.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/userlist', [], true)
+ 3 APPPATH\Controllers\Admin.php(12): view('admin/userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:34:30 --> Invalid file: admin/userlist.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/userlist.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/userlist', [], true)
+ 3 APPPATH\Controllers\Admin.php(12): view('admin/userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:34:37 --> Invalid file: admin/userlist.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/userlist.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/userlist', [], true)
+ 3 APPPATH\Controllers\Admin.php(12): view('admin/userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:35:46 --> Invalid file: admin/userlist.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/userlist.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/userlist', [], true)
+ 3 APPPATH\Controllers\Admin.php(12): view('admin/userlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:36:12 --> syntax error, unexpected '?>'
+in APPPATH\Views\admin\user_list.php on line 54.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/user_list', [], true)
+ 3 APPPATH\Controllers\Admin.php(12): view('admin/user_list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:36:38 --> Invalid argument supplied for foreach()
+in APPPATH\Views\admin\user_list.php on line 47.
+ 1 APPPATH\Views\admin\user_list.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\admin\\user_list.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/user_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(12): view('admin/user_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:36:38 --> Invalid argument supplied for foreach()
+in APPPATH\Views\admin\user_list.php on line 47.
+ 1 APPPATH\Views\admin\user_list.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\admin\\user_list.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/user_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(12): view('admin/user_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 00:53:32 --> Invalid argument supplied for foreach()
+in APPPATH\Views\admin\user_list.php on line 47.
+ 1 APPPATH\Views\admin\user_list.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\admin\\user_list.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/user_list', [], true)
+ 5 APPPATH\Controllers\Admin.php(12): view('admin/user_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-19 01:13:06 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Admin.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Admin->detail('4')
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-19 01:13:06 --> Call to a member function getRow() on bool
+in APPPATH\Controllers\Admin.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->detail('4')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-19 01:13:55 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Admin.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Admin->detail('4')
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-19 01:13:55 --> Call to a member function getRow() on bool
+in APPPATH\Controllers\Admin.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->detail('4')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 01:31:20 --> syntax error, unexpected '?>'
+in APPPATH\Views\admin\detail.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/detail', [], true)
+ 3 APPPATH\Controllers\Admin.php(29): view('admin/detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->detail('5')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 01:31:45 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\detail.php on line 75.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/detail', [], true)
+ 4 APPPATH\Controllers\Admin.php(29): view('admin/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->detail('5')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 19:42:51 --> syntax error, unexpected '}'
+in APPPATH\Controllers\User.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\User')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\User', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-19 19:58:09 --> Invalid argument supplied for foreach()
+in APPPATH\Views\user\course.php on line 47.
+ 1 APPPATH\Views\user\course.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\user\\course.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\course.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('user/course', [], true)
+ 5 APPPATH\Controllers\Admin.php(36): view('user/course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->course()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-19 20:15:20 --> mysqli_sql_exception: Table 'iro.sensor' doesn't exist in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Admin.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Admin->uploadcourse()
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-08-19 20:15:25 --> mysqli_sql_exception: Table 'iro.sensor' doesn't exist in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Admin.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Admin->uploadcourse()
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-08-19 20:15:30 --> mysqli_sql_exception: Table 'iro.sensor' doesn't exist in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Admin.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Admin->uploadcourse()
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-08-19 20:15:56 --> mysqli_sql_exception: Table 'iro.sensor' doesn't exist in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Admin.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Admin->uploadcourse()
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-08-19 20:16:03 --> mysqli_sql_exception: Table 'iro.sensor' doesn't exist in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Admin.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Admin->uploadcourse()
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-08-19 20:16:03 --> mysqli_sql_exception: Table 'iro.sensor' doesn't exist in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Admin.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Admin->uploadcourse()
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-08-19 20:16:05 --> mysqli_sql_exception: Table 'iro.sensor' doesn't exist in C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_iro\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\aplikasi_iro\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\aplikasi_iro\app\Controllers\Admin.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(898): App\Controllers\Admin->uploadcourse()
+#6 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\aplikasi_iro\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi_iro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi_iro\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
